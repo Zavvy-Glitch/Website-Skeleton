@@ -1,0 +1,50 @@
+body {
+    background-color: #301701;
+}
+
+header {
+    border-style:ridge;
+    background-color:rgb(222, 135, 4, 87);
+    text-align: right;
+    margin: 0px 0px 0px 820px;
+}
+
+h1 {
+    color: blanchedalmond;
+        
+}
+
+header li {
+    border: crimson 1px solid;
+    display: inline;
+    color: rgb(146, 146, 146);
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+}
+
+#section1, #section2, #section3 {
+    text-align: left;
+    margin: 20px 0px 0px 200px;
+}
+
+p {
+    text-align: left;
+    color: #DE8704;
+    margin: 0px 500px 40px 0px;
+}
+
+footer {
+    border-style:ridge;
+    border-color:rgb(222, 135, 4, 87);
+    background:#2B2102;
+    text-align:right;
+    margin: 0px 0px 0px 920px
+}
+
+footer, ul, li {
+    border-style: solid;
+    border-color:rgb(56, 38, 4);
+    color:rgb(77, 51, 2);
+}
