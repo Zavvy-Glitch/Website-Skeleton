@@ -8,13 +8,14 @@ userName =  prompt('Please Enter Your Name: ');
 console.log(userName);
 
 
-userAnswer = prompt('Did you know Cleopatra was not Egyption?');
+userAnswer = prompt('What is Cleopatras favorite perfume?');
 console.log(userAnswer);
 
-if (userAnswer == 'No') {
-    document.write('<h2>Pharoaheel, ' + userName + '. ' + 'Oh! and welcome!' + '</h2>');
+if (userAnswer == 'I dont know') {
+    document.write('<h2>' + userName + ',                                             Pharoah mone</h2>');
+
 }
 
-if (userAnswer == 'Yes') {
-    document.write('<h2>' + userName +', Guess all of her statues are wrong! Dont you think?</h2>');
+if (userAnswer == 'Pharoah mone') {
+    document.write('<h2>' + userName +' ,wow you are smart!</h2>');
 }
