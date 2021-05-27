@@ -19,7 +19,7 @@ function getUserAnswer(){
 
 function cleopatrashead(){
     let cleopatrashead = prompt('Do you think Cleos statues are all wrong?')
-    let url ="https://upload.wikimedia.org/wikipedia/commons/8/8f/Bust_of_Cleopatra_at_the_Royal_Ontario_Museum.jpg"
+    let url =""
     if (cleopatrashead.toLowerCase() == 'yes'){
         document.write('<h3>Who knows? Its made of stone.</h3>');
         document.write('<img src="' + url + '"/>')
