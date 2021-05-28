@@ -4,7 +4,7 @@ function getUserName(){
     document.write('<h2>' + userName + '</h2>');
     return userName; //
 }
-
+let url ="https://media.giphy.com/media/QsyqveIFQybuow0zPL/giphy.gif"
 function getUserAnswer(){
     let userAnswer = prompt('Do you know Cleopatras favorite perfume is? (Yes or No)');
     console.log(userAnswer);
@@ -21,6 +21,7 @@ function cleopatrashead(){
     let cleopatrashead = prompt('Do you think Cleos statues are all wrong?')
     if (cleopatrashead.toLowerCase() == 'yes'){
         document.write('<h3>Who knows? Its made of stone.</h3>');
+        document.write('<img src="' + url + '"/>')
     }
 }
 
@@ -57,6 +58,12 @@ function userGuessingGame() {
                 alert('The Sphinx Smiles Upon You, You May Pass');
                 break;
             }
-        }
-      
+        }  
 userGuessingGame();
+
+function walklikeanEgyption(){
+    let numberofEgyptions = prompt('How many can we get to walk to nile?')
+    for(let i = 0; i < numberOfEgyptions; i ++){
+        document.write('<img src="' + url + '"/>')
+    }
+}
